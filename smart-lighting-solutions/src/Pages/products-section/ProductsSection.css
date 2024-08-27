@@ -1,0 +1,24 @@
+.product-background{
+  background-image: linear-gradient(to right, #BAD1DF, #D6E4ED, #D6E1E7);
+}
+
+.button-unselected{
+  border-radius: 1px;
+  border-width: 2px;
+  padding: 10px;
+  border-color: #797979;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.button-selected{
+  border-radius: 1px;
+  border-width: 2px;
+  border-color: #90a5f1;
+  background: linear-gradient(270deg, rgba(203, 227, 255, 0.06) 0%, rgba(111, 178, 255, 0.4) 0%, rgba(203, 227, 255, 0.06) 49.87%, rgba(174, 210, 251, 0.4) 100%);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #00386B;
+}
