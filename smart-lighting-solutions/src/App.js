@@ -8,7 +8,7 @@ import EcosystemSection from "./Pages/ecosystem-section/EcosystemSection.jsx";
 
 function App() {
   return (
-    <div className="w-full overflow-y-scroll">
+    <div className="w-max md:w-screen overflow-y-scroll">
       <HomePage />
       <EcosystemSection />
       <ProductsPage />

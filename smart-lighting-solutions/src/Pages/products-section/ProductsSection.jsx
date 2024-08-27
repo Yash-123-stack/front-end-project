@@ -19,7 +19,7 @@ function ProductsSection() {
             <b>Cutting-edge hardware,</b> offerings helping cities optimize resources and achieve smart development goals
           </div>
         </div>
-        <div className='mt-24 w-[1216px]'>
+        <div className='mt-24 w-[1130px]'>
           <div className='flex flex-wrap gap-7 text-nowrap'>
             {buttons.map((item, index) => {
               return (
@@ -30,7 +30,7 @@ function ProductsSection() {
         </div>
         <div className='flex mt-7 h-[500px]'>
           <div>
-            <img src={light} alt="Street-lights" width={600} height={500} />
+            <img src={light} alt="Street-lights" className = "w-[600px] h-[394px]" />
           </div>
           <div className='flex flex-col py-[10%] px-[5%] bg-product-heading-2 w-[600px] h-[394px]'>
             <div className='text-sm leading-4 text-gray-500'>Products 1/5</div>
@@ -48,7 +48,7 @@ function ProductsSection() {
               <img src={option} alt="option" height={28} width={28} />
             </div>
           </div>
-          <div className='relative -bottom-[70%] -left-[51.2%]'>
+          <div className='relative -bottom-[71.5%] -left-[51.8%]'>
             <img src={img} alt="Switch" width={114} height={52} />
           </div>
         </div>
